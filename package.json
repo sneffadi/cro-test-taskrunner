@@ -1,0 +1,26 @@
+{
+  "name": "cro-builder",
+  "version": "1.0.0",
+  "description": "Test package to enable building CRO tests using SASS and ES6+ delivering it as a fully compressed file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "minify": "gulp minify"
+  },
+  "author": "Stephanie Jelalian",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.2.0"
+  }
+}
